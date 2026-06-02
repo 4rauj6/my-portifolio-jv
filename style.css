@@ -41,7 +41,6 @@ li {
 .home-container {
     display: flex;
     align-items: center;
-    justify-self: center;
 }
 
 .text-content {
