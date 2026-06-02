@@ -41,29 +41,40 @@ li {
 .home-container {
     display: flex;
     align-items: center;
+    justify-self: center;
+    gap: 100px;
+    padding: 10px;
+    height: 70vh;
 }
 
 .text-content {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     color: white;
+    max-width: 600px;
+    gap: 25px;
 }
 
 .text-content h1 {
     font-family: "Unbounded";
     font-weight: 300;
     font-size: 3.8em;
-    width: 86%;
+    width: 100%;
 }
 
 .text-content h3 {
     font-family: "Noto Sans Mono", monospace;
-    width: 40%;
     font-weight: 400;
+    width: 100%;
+}
+
+.image-container img {
+    width: 90%;
 }
 
 .more-details {
-    width: 10%;
+    width: 100%;
     height: 4vh;
+    border-radius: 10px;
+    border: none;
 }
